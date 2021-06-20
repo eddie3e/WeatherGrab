@@ -7,12 +7,12 @@ from datetime import datetime
 ## Select from data file keys [daily][temp][min],[max]
 
 
-api_key = "00f1cd75fbc170f7c600dd35862a33d3"
-## currnet home location
+api_key = "XXCC"
+## current home location
 lat = "42.254931"
 lon = "-70.8983301"
 
-## try to take user input to grab region loaction
+## try to take user input to grab region location
 user_request = input("Please enter your zip code:\n")
 r = re.search("[5]", user_request)
 
